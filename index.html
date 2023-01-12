@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bootstrap Avançado</h1>
+    </header>
+    <div class="container">
+        <div id="paisagens-canada" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#paisagens-canada" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#paisagens-canada" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#paisagens-canada" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#paisagens-canada" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#paisagens-canada" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="./images/bow.jpg" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/colinas.jpg" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/montanhas.jpg" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/niagara.jpg" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/river.jpg" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#paisagens-canada" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#paisagens-canada" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-2 col-md-5 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/montreal.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Basílica de Notre-Dame</h5>
+                        <p class="card-text">A Basílica de Notre-Dame de Montreal é uma basílica católica romana situada no distrito de Ville-Marie, em Montreal, Canadá. É uma das mais proeminentes edificações religiosas da cidade, juntamente com a Catedral de Maria Rainha do Mundo.</p>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-md-5 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/ottawa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Parliament Hill</h5>
+                        <p class="card-text">A Colina do Parlamento é uma vasta área de Ottawa pertencente à Coroa canadense que abriga os edifícios do Parlamento do Canadá e outros prédios de grande significância cultural, como a Biblioteca do Parlamento.</p>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-sm-2 col-md-5 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/vancouver.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Science World</h5>
+                        <p class="card-text">Traduzido do inglês-Science World é um centro de ciências administrado por uma organização sem fins lucrativos chamada ASTC Science World Society em Vancouver, British Columbia, Canadá.</p>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-sm-2 col-md-5 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/toronto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nathan Phillips Square</h5>
+                        <p class="card-text">O Nathan Phillips Square é a praça central de Toronto, Ontário, Canadá, localizada no cruzamento da Bay Street com a Queen Street, tendo sido inaugurada em 1965, em conjunto com o Toronto City Hall.</p>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

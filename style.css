@@ -1,0 +1,11 @@
+header {
+    padding: 16px 0;
+    background-color: #5861da;
+    color: #ecf0f1;
+    font-style: italic;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(167, 167, 252);
+}
